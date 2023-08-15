@@ -5,5 +5,6 @@ func main() {
 	// Values()
 	// Variables()
 	// For()
-	If()
+	// If()
+	Switch()
 }
