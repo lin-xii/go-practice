@@ -2,5 +2,6 @@ package main
 
 func main() {
 	// Helloworld()
-	Values()
+	// Values()
+	Variables()
 }
