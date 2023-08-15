@@ -4,5 +4,6 @@ func main() {
 	// Helloworld()
 	// Values()
 	// Variables()
-	For()
+	// For()
+	If()
 }
