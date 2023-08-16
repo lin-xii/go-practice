@@ -7,5 +7,6 @@ func main() {
 	// For()
 	// If()
 	// Switch()
-	Pointer()
+	// Pointer()
+	Goroutine()
 }
