@@ -8,5 +8,6 @@ func main() {
 	// If()
 	// Switch()
 	// Pointer()
-	Goroutine()
+	// Goroutine()
+	// Channel()
 }
