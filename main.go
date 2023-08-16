@@ -6,5 +6,6 @@ func main() {
 	// Variables()
 	// For()
 	// If()
-	Switch()
+	// Switch()
+	Pointer()
 }
