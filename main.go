@@ -1,5 +1,7 @@
 package main
 
+import "github.com/lin-xii/go-example/niuke"
+
 func main() {
 	// Helloworld()
 	// Values()
@@ -10,5 +12,6 @@ func main() {
 	// Pointer()
 	// Goroutine()
 	// Channel()
-	Rune()
+	// Rune()
+	niuke.ExecCountString()
 }
