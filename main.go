@@ -13,5 +13,6 @@ func main() {
 	// Goroutine()
 	// Channel()
 	// Rune()
-	niuke.ExecCountString()
+	// niuke.ExecCountString()
+	niuke.ExecIsPalindrome()
 }
