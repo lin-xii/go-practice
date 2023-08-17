@@ -10,4 +10,5 @@ func main() {
 	// Pointer()
 	// Goroutine()
 	// Channel()
+	Rune()
 }
