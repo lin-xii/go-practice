@@ -14,5 +14,6 @@ func main() {
 	// Channel()
 	// Rune()
 	// niuke.ExecCountString()
-	niuke.ExecIsPalindrome()
+	// niuke.ExecIsPalindrome()
+	niuke.ExecDivision()
 }
