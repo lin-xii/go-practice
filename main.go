@@ -19,5 +19,6 @@ func main() {
 	// niuke.ExecCompare()
 	// niuke.ExecLogicOperation()
 	// niuke.ExecBitOperation()
-	niuke.ExecOdevity()
+	// niuke.ExecOdevity()
+	niuke.ExecArray()
 }
