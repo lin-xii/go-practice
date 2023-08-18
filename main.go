@@ -22,5 +22,6 @@ func main() {
 	// niuke.ExecOdevity()
 	// niuke.ExecArray()
 	// niuke.ExecMakeSlice()
-	niuke.ExecSliceCopy()
+	// niuke.ExecSliceCopy()
+	niuke.ExecDeleteElement()
 }
