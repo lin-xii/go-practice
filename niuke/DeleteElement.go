@@ -12,18 +12,31 @@ import "fmt"
  */
 func deleteElement(s []int, index int) []int {
 	// write code here
-	result := make([]int, 0)
-	for i, v := range s {
-		if i == index {
-			continue
-		}
-		result = append(result, v)
-	}
-	return result
+
+	// 如果slice底层Array非常大，要避免直接slice，使用copy更优
+	// result := make([]int, 0)
+	// for i, v := range s {
+	// 	if i == index {
+	// 		continue
+	// 	}
+	// 	result = append(result, v)
+	// }
+	// return result
+	s1 := make([]int, index)
+	s2 := make([]int, len(s)-index-1)
+
+	fmt.Println(s)
+	fmt.Println("start:end 3:5 左闭，右开。[ )", s[3:5])
+	// 索引从0开始。所以index:3，其实是第四个元素
+	fmt.Println("start: 3: []", s[3:])
+	fmt.Println(":end :5 [)", s[:5])
+	copy(s1, s[:index])
+	copy(s2, s[index+1:])
+	return append(s1, s2...)
 }
 
 func ExecDeleteElement() {
-	temp := []int{1, 2, 3, 4, 5, 6}
+	temp := []int{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
 	fmt.Println(deleteElement(temp, 2))
 }
 
