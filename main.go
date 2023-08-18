@@ -23,5 +23,6 @@ func main() {
 	// niuke.ExecArray()
 	// niuke.ExecMakeSlice()
 	// niuke.ExecSliceCopy()
-	niuke.ExecDeleteElement()
+	// niuke.ExecDeleteElement()
+	niuke.ExecMinAndMax()
 }
