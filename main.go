@@ -17,5 +17,6 @@ func main() {
 	// niuke.ExecIsPalindrome()
 	// niuke.ExecDivision()
 	// niuke.ExecCompare()
-	niuke.ExecLogicOperation()
+	// niuke.ExecLogicOperation()
+	niuke.ExecBitOperation()
 }
