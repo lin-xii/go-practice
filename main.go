@@ -21,5 +21,6 @@ func main() {
 	// niuke.ExecBitOperation()
 	// niuke.ExecOdevity()
 	// niuke.ExecArray()
-	niuke.ExecMakeSlice()
+	// niuke.ExecMakeSlice()
+	niuke.ExecSliceCopy()
 }
