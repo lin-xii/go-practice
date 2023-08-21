@@ -26,5 +26,6 @@ func main() {
 	// niuke.ExecDeleteElement()
 	// niuke.ExecMinAndMax()
 	// niuke.ExecConvert()
-	niuke.ExecEqual()
+	// niuke.ExecEqual()
+	niuke.ExecMerge()
 }
