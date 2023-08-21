@@ -1,7 +1,8 @@
 package main
 
 // import "github.com/lin-xii/go-example/niuke"
-import "github.com/lin-xii/go-example/niuke/maps"
+// import "github.com/lin-xii/go-example/niuke/maps"
+import "github.com/lin-xii/go-example/niuke/control"
 
 func main() {
 	// Helloworld()
@@ -33,5 +34,6 @@ func main() {
 	// maps.ExecScore()
 	// maps.ExecCharacter()
 	// maps.ExecCanConstruct()
-	maps.ExecGetNoRepeat()
+	// maps.ExecGetNoRepeat()
+	control.ExecGetAge()
 }
