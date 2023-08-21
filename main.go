@@ -36,5 +36,6 @@ func main() {
 	// maps.ExecCanConstruct()
 	// maps.ExecGetNoRepeat()
 	// control.ExecGetAge()
-	control.ExecJudgeScore()
+	// control.ExecJudgeScore()
+	control.ExecIspay()
 }
