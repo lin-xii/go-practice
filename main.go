@@ -5,6 +5,7 @@ package main
 // import "github.com/lin-xii/go-example/niuke/control"
 import "github.com/lin-xii/go-example/niuke/loop"
 
+// 一些练习
 func main() {
 	// Helloworld()
 	// Values()
