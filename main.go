@@ -30,5 +30,6 @@ func main() {
 	// niuke.ExecEqual()
 	// niuke.ExecMerge()
 	// niuke.ExecWardrobe()
-	maps.ExecScore()
+	// maps.ExecScore()
+	maps.ExecCharacter()
 }
