@@ -32,5 +32,6 @@ func main() {
 	// niuke.ExecWardrobe()
 	// maps.ExecScore()
 	// maps.ExecCharacter()
-	maps.ExecCanConstruct()
+	// maps.ExecCanConstruct()
+	maps.ExecGetNoRepeat()
 }
