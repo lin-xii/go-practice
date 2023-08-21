@@ -1,6 +1,7 @@
 package main
 
-import "github.com/lin-xii/go-example/niuke"
+// import "github.com/lin-xii/go-example/niuke"
+import "github.com/lin-xii/go-example/niuke/maps"
 
 func main() {
 	// Helloworld()
@@ -28,5 +29,6 @@ func main() {
 	// niuke.ExecConvert()
 	// niuke.ExecEqual()
 	// niuke.ExecMerge()
-	niuke.ExecWardrobe()
+	// niuke.ExecWardrobe()
+	maps.ExecScore()
 }
