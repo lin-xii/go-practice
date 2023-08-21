@@ -2,7 +2,8 @@ package main
 
 // import "github.com/lin-xii/go-example/niuke"
 // import "github.com/lin-xii/go-example/niuke/maps"
-import "github.com/lin-xii/go-example/niuke/control"
+// import "github.com/lin-xii/go-example/niuke/control"
+import "github.com/lin-xii/go-example/niuke/loop"
 
 func main() {
 	// Helloworld()
@@ -38,5 +39,6 @@ func main() {
 	// control.ExecGetAge()
 	// control.ExecJudgeScore()
 	// control.ExecIspay()
-	control.ExecPushbox()
+	// control.ExecPushbox()
+	loop.ExecMultiplication()
 }
