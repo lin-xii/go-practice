@@ -27,5 +27,6 @@ func main() {
 	// niuke.ExecMinAndMax()
 	// niuke.ExecConvert()
 	// niuke.ExecEqual()
-	niuke.ExecMerge()
+	// niuke.ExecMerge()
+	niuke.ExecWardrobe()
 }
