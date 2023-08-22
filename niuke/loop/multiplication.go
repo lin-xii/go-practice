@@ -15,6 +15,8 @@ func ExecMultiplication() {
 	multiplication()
 }
 
+//
+
 // 描述
 
 // 打印9*9乘法口诀表。
