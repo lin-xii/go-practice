@@ -46,5 +46,6 @@ func main() {
 	// loop.ExecTransform()
 	// loop.ExecCheck()
 	// loop.ExecCanPass()
-	function.ExecFactorial()
+	// function.ExecFactorial()
+	function.ExecAbsfunc()
 }
