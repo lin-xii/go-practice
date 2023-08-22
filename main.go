@@ -5,7 +5,8 @@ package main
 // import "github.com/lin-xii/go-example/niuke/control"
 // import "github.com/lin-xii/go-example/niuke/loop"
 // import "github.com/lin-xii/go-example/niuke/function"
-import "github.com/lin-xii/go-example/niuke/structs"
+// import "github.com/lin-xii/go-example/niuke/structs"
+import "github.com/lin-xii/go-example/niuke/interfaces"
 
 // 一些练习
 func main() {
@@ -50,5 +51,6 @@ func main() {
 	// function.ExecFactorial()
 	// function.ExecAbsfunc()
 	// function.ExecOperate()
-	structs.Students2()
+	// structs.Students2()
+	interfaces.Animals()
 }
