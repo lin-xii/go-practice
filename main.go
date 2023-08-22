@@ -41,5 +41,6 @@ func main() {
 	// control.ExecJudgeScore()
 	// control.ExecIspay()
 	// control.ExecPushbox()
-	loop.ExecMultiplication()
+	// loop.ExecMultiplication()
+	loop.ExecTransform()
 }
