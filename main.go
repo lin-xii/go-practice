@@ -43,5 +43,6 @@ func main() {
 	// control.ExecPushbox()
 	// loop.ExecMultiplication()
 	// loop.ExecTransform()
-	loop.ExecCheck()
+	// loop.ExecCheck()
+	loop.ExecCanPass()
 }
