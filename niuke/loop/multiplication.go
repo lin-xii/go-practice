@@ -15,6 +15,7 @@ func ExecMultiplication() {
 	multiplication()
 }
 
+// terminal
 // vscode
 // 描述
 
