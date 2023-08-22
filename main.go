@@ -4,7 +4,8 @@ package main
 // import "github.com/lin-xii/go-example/niuke/maps"
 // import "github.com/lin-xii/go-example/niuke/control"
 // import "github.com/lin-xii/go-example/niuke/loop"
-import "github.com/lin-xii/go-example/niuke/function"
+// import "github.com/lin-xii/go-example/niuke/function"
+import "github.com/lin-xii/go-example/niuke/structs"
 
 // 一些练习
 func main() {
@@ -48,5 +49,6 @@ func main() {
 	// loop.ExecCanPass()
 	// function.ExecFactorial()
 	// function.ExecAbsfunc()
-	function.ExecOperate()
+	// function.ExecOperate()
+	structs.Students2()
 }
