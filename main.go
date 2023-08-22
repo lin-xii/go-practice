@@ -42,5 +42,6 @@ func main() {
 	// control.ExecIspay()
 	// control.ExecPushbox()
 	// loop.ExecMultiplication()
-	loop.ExecTransform()
+	// loop.ExecTransform()
+	loop.ExecCheck()
 }
