@@ -3,7 +3,8 @@ package main
 // import "github.com/lin-xii/go-example/niuke"
 // import "github.com/lin-xii/go-example/niuke/maps"
 // import "github.com/lin-xii/go-example/niuke/control"
-import "github.com/lin-xii/go-example/niuke/loop"
+// import "github.com/lin-xii/go-example/niuke/loop"
+import "github.com/lin-xii/go-example/niuke/function"
 
 // 一些练习
 func main() {
@@ -44,5 +45,6 @@ func main() {
 	// loop.ExecMultiplication()
 	// loop.ExecTransform()
 	// loop.ExecCheck()
-	loop.ExecCanPass()
+	// loop.ExecCanPass()
+	function.ExecFactorial()
 }
