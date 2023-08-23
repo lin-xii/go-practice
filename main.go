@@ -7,7 +7,8 @@ package main
 // import "github.com/lin-xii/go-example/niuke/function"
 // import "github.com/lin-xii/go-example/niuke/structs"
 // import "github.com/lin-xii/go-example/niuke/interfaces"
-import "github.com/lin-xii/go-example/niuke/errors"
+// import "github.com/lin-xii/go-example/niuke/errors"
+import "github.com/lin-xii/go-example/practice"
 
 // 一些练习
 func main() {
@@ -54,5 +55,6 @@ func main() {
 	// function.ExecOperate()
 	// structs.Students2()
 	// interfaces.Animals()
-	errors.ExecTemprature()
+	// errors.ExecTemprature()
+	practice.RunMultiReturns()
 }
