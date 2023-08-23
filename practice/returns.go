@@ -2,13 +2,24 @@ package practice
 
 import "fmt"
 
-func multiReturns() (first int, second float32) {
+// 命名返回值时，不需要在函数体中声明变量
+// func multiReturns() (first int, second float32) {
+// 	defer func() {
+// 		second = 3.0
+// 	}()
+// 	first = 1
+// 	second = 2.0
+// 	return
+// }
+
+// 如果返回值是值类型，defer修改是不生效的，得是pointer才行
+func multiReturns() string {
+	single := "single"
 	defer func() {
-		second = 3.0
+		single = "defer"
+		// return single
 	}()
-	first = 1
-	second = 2.0
-	return
+	return single
 }
 
 func RunMultiReturns() {
