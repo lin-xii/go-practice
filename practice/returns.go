@@ -13,15 +13,25 @@ import "fmt"
 // }
 
 // 如果返回值是值类型，defer修改是不生效的，得是pointer才行
-func multiReturns() string {
+// func multiReturns() string {
+// 	single := "single"
+// 	defer func() {
+// 		single = "defer"
+// 		// return single
+// 	}()
+// 	return single
+// }
+
+// pointer类型，defer修改值是生效的
+func multiReturns() *string {
 	single := "single"
 	defer func() {
 		single = "defer"
 		// return single
 	}()
-	return single
+	return &single
 }
 
 func RunMultiReturns() {
-	fmt.Println(multiReturns())
+	fmt.Println(*multiReturns())
 }
