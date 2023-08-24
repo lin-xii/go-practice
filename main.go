@@ -1,14 +1,18 @@
 package main
 
-// import "github.com/lin-xii/go-example/niuke"
-// import "github.com/lin-xii/go-example/niuke/maps"
-// import "github.com/lin-xii/go-example/niuke/control"
-// import "github.com/lin-xii/go-example/niuke/loop"
-// import "github.com/lin-xii/go-example/niuke/function"
-// import "github.com/lin-xii/go-example/niuke/structs"
-// import "github.com/lin-xii/go-example/niuke/interfaces"
-// import "github.com/lin-xii/go-example/niuke/errors"
-import "github.com/lin-xii/go-example/practice"
+import (
+	_ "github.com/lin-xii/go-example/niuke"
+	_ "github.com/lin-xii/go-example/niuke/control"
+	_ "github.com/lin-xii/go-example/niuke/errors"
+	_ "github.com/lin-xii/go-example/niuke/function"
+	_ "github.com/lin-xii/go-example/niuke/interfaces"
+	_ "github.com/lin-xii/go-example/niuke/loop"
+	_ "github.com/lin-xii/go-example/niuke/maps"
+	_ "github.com/lin-xii/go-example/niuke/structs"
+
+	"github.com/lin-xii/go-example/inaction/one"
+	_ "github.com/lin-xii/go-example/practice"
+)
 
 // 一些练习
 func main() {
@@ -56,5 +60,6 @@ func main() {
 	// structs.Students2()
 	// interfaces.Animals()
 	// errors.ExecTemprature()
-	practice.RunMultiReturns()
+	// practice.RunMultiReturns()
+	one.RunInterface()
 }
