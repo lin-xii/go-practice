@@ -10,7 +10,8 @@ import (
 	_ "github.com/lin-xii/go-example/niuke/maps"
 	_ "github.com/lin-xii/go-example/niuke/structs"
 
-	"github.com/lin-xii/go-example/inaction/one"
+	"github.com/lin-xii/go-example/inaction/chapter4"
+	_ "github.com/lin-xii/go-example/inaction/one"
 	_ "github.com/lin-xii/go-example/practice"
 )
 
@@ -61,5 +62,6 @@ func main() {
 	// interfaces.Animals()
 	// errors.ExecTemprature()
 	// practice.RunMultiReturns()
-	one.RunInterface()
+	// one.RunInterface()
+	chapter4.Recuperate()
 }
