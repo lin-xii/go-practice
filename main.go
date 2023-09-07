@@ -65,5 +65,6 @@ func main() {
 	// one.RunInterface()
 	// chapter4.Recuperate()
 	// chapter4.NilOrBlankSlice()
-	chapter4.BottomArray()
+	// chapter4.BottomArray()
+	chapter4.SomeArray()
 }
