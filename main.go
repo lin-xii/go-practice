@@ -66,5 +66,6 @@ func main() {
 	// chapter4.Recuperate()
 	// chapter4.NilOrBlankSlice()
 	// chapter4.BottomArray()
-	chapter4.SomeArray()
+	// chapter4.SomeArray()
+	chapter4.SomeMap()
 }
