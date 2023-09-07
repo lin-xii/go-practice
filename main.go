@@ -10,7 +10,8 @@ import (
 	_ "github.com/lin-xii/go-example/niuke/maps"
 	_ "github.com/lin-xii/go-example/niuke/structs"
 
-	"github.com/lin-xii/go-example/inaction/chapter4"
+	_ "github.com/lin-xii/go-example/inaction/chapter4"
+	"github.com/lin-xii/go-example/inaction/chapter5"
 	_ "github.com/lin-xii/go-example/inaction/one"
 	_ "github.com/lin-xii/go-example/practice"
 )
@@ -67,5 +68,6 @@ func main() {
 	// chapter4.NilOrBlankSlice()
 	// chapter4.BottomArray()
 	// chapter4.SomeArray()
-	chapter4.SomeMap()
+	// chapter4.SomeMap()
+	chapter5.BasicTypeDeclare()
 }
