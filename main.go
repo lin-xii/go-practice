@@ -63,5 +63,7 @@ func main() {
 	// errors.ExecTemprature()
 	// practice.RunMultiReturns()
 	// one.RunInterface()
-	chapter4.Recuperate()
+	// chapter4.Recuperate()
+	// chapter4.NilOrBlankSlice()
+	chapter4.BottomArray()
 }
