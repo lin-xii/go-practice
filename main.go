@@ -70,5 +70,6 @@ func main() {
 	// chapter4.SomeArray()
 	// chapter4.SomeMap()
 	// chapter5.BasicTypeDeclare()
-	chapter5.ComplexTypeDeclare()
+	// chapter5.ComplexTypeDeclare()
+	chapter5.ValueDelivery()
 }
