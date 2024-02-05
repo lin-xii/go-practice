@@ -11,7 +11,7 @@ import (
 	_ "github.com/lin-xii/go-example/niuke/structs"
 
 	_ "github.com/lin-xii/go-example/inaction/chapter4"
-	"github.com/lin-xii/go-example/inaction/chapter5"
+	_ "github.com/lin-xii/go-example/inaction/chapter5"
 	_ "github.com/lin-xii/go-example/inaction/one"
 	_ "github.com/lin-xii/go-example/practice"
 )
@@ -71,5 +71,6 @@ func main() {
 	// chapter4.SomeMap()
 	// chapter5.BasicTypeDeclare()
 	// chapter5.ComplexTypeDeclare()
-	chapter5.ValueDelivery()
+	// chapter5.ValueDelivery()
+	println("hello, 2024")
 }
