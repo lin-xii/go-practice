@@ -1,10 +1,15 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 // 一些练习
 func main() {
-	fmt.Println(addition(1, 2))
+	// fmt.Println(addition(1, 2))
+	// ^是按位取反，幂运算，需要math.Pow
+	fmt.Println(math.Pow(2, 4))
 }
 
 func addition(a, b int) int {
