@@ -6,9 +6,9 @@ import (
 
 var a = 1
 
-func foo(n int){
-	a:=2
-	a+=n
+func foo(n int) {
+	a := 2
+	a += n
 }
 
 // 一些练习
