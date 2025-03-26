@@ -2,16 +2,25 @@ package main
 
 import (
 	"fmt"
-
-	practice254 "github.com/lin-xii/go-example/practice_254"
 )
+
+var a = 1
+
+func foo(n int){
+	a:=2
+	a+=n
+}
 
 // 一些练习
 func main() {
 	// fmt.Println(addition(1, 2))
 	// ^是按位取反，幂运算，需要math.Pow
 	// fmt.Println(math.Pow(2, 4))
-	practice254.Server()
+	// practice254.Server()
+	fmt.Printf("hello world %d\n", a)
+	// 变量作用域
+	foo(10)
+	fmt.Printf("hello world %d\n", a)
 }
 
 func addition(a, b int) int {
